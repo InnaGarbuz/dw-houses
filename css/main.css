@@ -1,0 +1,414 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  position: relative;
+  line-height: 1; }
+
+ul {
+  list-style: none; }
+
+p {
+  line-height: 1.5; }
+
+.dw-right {
+  text-align: right; }
+
+.dw-center {
+  text-align: center; }
+
+.dw-header {
+  background: #201600;
+  width: 100%;
+  z-index: 9;
+  padding: 10px 0; }
+
+.dw-header__top-nav {
+  padding: 0;
+  margin: 0; }
+
+.top-nav__item {
+  display: inline-block; }
+.top-nav__list {
+  color: #fff;
+  font-size: 14px; }
+
+.navbar__list {
+  padding: 0;
+  margin-bottom: 0; }
+
+.navbar__item {
+  display: inline-block;
+  padding: 14px 43px 0 0; }
+
+.navbar__link {
+  color: #fff;
+  font-size: 14px; }
+
+.navbar__search {
+  padding: 0; }
+
+.navbar__search {
+  color: #a9aeb8;
+  font-size: 20px; }
+
+.dw-header__search-planeName {
+  position: relative;
+  margin: 20px 0 0; }
+
+.input-control {
+  background: #FFF;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #9b9b9a; }
+
+.btn-submit {
+  background: #4D5EA1;
+  padding: 8px 8px 9px;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  border: none;
+  right: 0;
+  top: 0; }
+
+.dw-banner {
+  background: url("../img/banner.jpg") no-repeat;
+  background-size: cover;
+  height: 471px;
+  position: relative;
+  background-position: 0 -7px; }
+
+.dw-banner__top {
+  background: #201600;
+  padding: 10px 30px;
+  position: absolute;
+  top: 25px; }
+  .dw-banner__top p {
+    color: #979695;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0; }
+    .dw-banner__top p span {
+      color: #fff; }
+
+.dw-banner__quote, .dw-favorite__block {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px;
+  position: absolute;
+  width: 430px;
+  bottom: 20px;
+  right: 40px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+  .dw-banner__quote h1, .dw-favorite__block h1 {
+    text-transform: uppercase;
+    color: #201600;
+    font-size: 17px;
+    font-weight: bold; }
+  .dw-banner__quote p, .dw-favorite__block p {
+    font-size: 42px;
+    margin: 0; }
+  .dw-banner__quote h2, .dw-favorite__block h2 {
+    color: #3d372f;
+    font-size: 15px; }
+
+.dw-favorite {
+  background: url("../img/favorite.jpg") no-repeat;
+  background-size: cover;
+  height: 471px;
+  position: relative;
+  background-position: 0 -7px; }
+  .dw-favorite .dw-favorite__top {
+    background: #201600;
+    padding: 10px 30px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px; }
+    .dw-favorite .dw-favorite__top p {
+      color: #979695;
+      text-transform: uppercase;
+      font-size: 10px;
+      margin: 0; }
+      .dw-favorite .dw-favorite__top p span {
+        color: #fff; }
+
+.dw-favorite__block {
+  top: 40px;
+  left: 40px;
+  height: 114px;
+  padding: 10px 10px 0; }
+  .dw-favorite__block h3 {
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0; }
+  .dw-favorite__block p {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 20px; }
+    .dw-favorite__block p .chick-here {
+      font-size: 12px;
+      padding: 3px 20px; }
+
+.dw-panel {
+  background: #84888f; }
+
+.dw-panel__search {
+  padding: 0 0 0 40px; }
+  .dw-panel__search li {
+    display: inline-block;
+    margin: 5px; }
+
+.search__link {
+  padding: 10px 10px;
+  background: #313333;
+  color: #fff;
+  display: block; }
+  .search__link i {
+    padding-left: 5px; }
+
+.search__link_btn {
+  background: #4D59A1;
+  padding: 10px 40px;
+  display: block;
+  color: #fff; }
+
+.search__link_options {
+  padding: 10px 40px;
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.dw-banner__content {
+  position: relative;
+  height: 100%;
+  height: 471px; }
+
+.dw-questions {
+  padding: 10px 0; }
+
+.dw-questions__text h3 {
+  margin: 13px 0 8px;
+  color: #4D59A1;
+  font-size: 20px;
+  font-weight: bold; }
+.dw-questions__text p {
+  margin: 0;
+  font-size: 12px; }
+
+.dw-title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 9px;
+  margin: 0 0 20px;
+  font-weight: 100; }
+
+.dw-questions__text {
+  margin: 13px 0 0;
+  font-size: 12px;
+  color: #6d585a; }
+  .dw-questions__text span {
+    color: #b3a19e;
+    font-weight: bold; }
+
+.dw-questions__form {
+  position: relative; }
+  .dw-questions__form input {
+    background: #FFF;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid #000; }
+
+.btn-sing {
+  background: #615e5b;
+  padding: 8px 8px 11px;
+  text-transform: uppercase;
+  color: #000;
+  position: absolute;
+  border: none;
+  right: 0px;
+  top: 0; }
+
+.dw-about {
+  background: #949392;
+  padding: 30px 0; }
+
+.dw-footer {
+  background: #201600;
+  padding: 20px 0; }
+  .dw-footer h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center; }
+
+.dw-footer__list {
+  padding: 0; }
+  .dw-footer__list li {
+    text-align: center; }
+    .dw-footer__list li a {
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold; }
+
+.dw-about__description h3 {
+  color: #201600;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center; }
+.dw-about__description p {
+  color: #201600;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold; }
+
+.btn-vibeo {
+  border: 2px solid #7a7c7f;
+  color: #4d4d4f;
+  text-align: center;
+  padding: 6px 40px;
+  margin: 20px auto;
+  width: 226px;
+  display: block;
+  height: 35px; }
+  .btn-vibeo:hover {
+    background: #FFF; }
+
+.dw-houses {
+  padding: 20px 0 30px; }
+
+.dw-houses__house {
+  margin: 20px 0; }
+
+.house__img {
+  background: url("../img/house1.jpg") no-repeat;
+  background-size: cover;
+  height: 191px;
+  width: 100%;
+  position: relative; }
+
+.house__img_two {
+  background: url("../img/house2.jpg") no-repeat;
+  background-size: cover;
+  height: 191px;
+  width: 100%;
+  position: relative; }
+
+.house__img_three {
+  background: url("../img/house3.jpg") no-repeat;
+  background-size: cover;
+  height: 191px;
+  width: 100%;
+  position: relative; }
+
+.house__img_four {
+  background: url("../img/house4.jpg") no-repeat;
+  background-size: cover;
+  height: 191px;
+  width: 100%;
+  position: relative; }
+
+.dw-houses__plan_one {
+  background: url("../img/houseplan1.jpg") no-repeat;
+  background-size: cover;
+  height: 218px;
+  width: 100%;
+  position: relative;
+  margin: 20px 0; }
+
+.dw-houses__plan_two {
+  background: url("../img/houseplan2.jpg") no-repeat;
+  background-size: cover;
+  height: 218px;
+  width: 100%;
+  margin: 20px 0;
+  position: relative; }
+
+.dw-houses__plan_three {
+  background: url("../img/houseplan3.jpg") no-repeat;
+  background-size: cover;
+  height: 218px;
+  width: 100%;
+  margin: 20px 0;
+  position: relative; }
+
+.dw-header__logo {
+  padding: 8px 0 0; }
+
+.plan__text {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px 10px 0;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 326px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 19px; }
+  .plan__text h4 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    color: #000; }
+  .plan__text p {
+    color: #000000;
+    font-size: 12.79px;
+    font-weight: 600;
+    margin: 0 0 7px; }
+
+.chick-here {
+  background: #000;
+  color: #fff;
+  padding: 3px 10px;
+  font-weight: 700;
+  font-size: 10px;
+  text-align: center; }
+
+.house__text {
+  background: #eaebec;
+  padding: 10px 0;
+  text-align: center; }
+  .house__text h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin: 0; }
+  .house__text p {
+    font-size: 12px;
+    margin-top: 0;
+    padding: 5px 10px 0; }
+  .house__text a {
+    color: #224195;
+    font-size: 14px;
+    font-weight: bold; }
+
+.dw-house-plan {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px 20px;
+  background: #000; }
+  .dw-house-plan p {
+    margin: 0;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px; }
+
+.dw-banner__viveo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: -55px 0; }
+  .dw-banner__viveo a {
+    color: #fff;
+    font-size: 80px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,230 @@
+/*==========  Desktop First Method  ==========*/
+.menu-cont {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    padding: 20px;
+    right: 1px;
+    z-index: 9999999;
+    top: -10px;
+}
+
+.menu-txt {
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    bottom: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    letter-spacing: 6px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+.menu {
+    content: "";
+    display: inline-block;
+    position: relative;
+    float: right;
+    opacity: 1;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform 400ms ease;
+    transition: -webkit-transform 400ms ease;
+    transition: transform 400ms ease;
+    transition: transform 400ms ease, -webkit-transform 400ms ease;
+}
+
+.menu.active {
+    -webkit-transform: rotate(45deg) translateY(12px);
+    transform: rotate(45deg) translateY(12px);
+}
+
+.menu.active:before {
+    opacity: 0;
+}
+
+.menu.active:after {
+    -webkit-transform: rotate(-450deg) translateX(16px);
+    transform: rotate(-450deg) translateX(16px);
+}
+
+.menu:before, .menu:after {
+    content: "";
+    display: block;
+    position: absolute;
+    opacity: 1;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+}
+
+.menu:before {
+    top: 8px;
+    -webkit-transition: opacity 400ms ease;
+    transition: opacity 400ms ease;
+}
+
+.menu:after {
+    top: 16px;
+    -webkit-transition: -webkit-transform 400ms ease;
+    transition: -webkit-transform 400ms ease;
+    transition: transform 400ms ease, -webkit-transform 400ms ease;
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.navbar__link, .top-nav__list{
+		font-size: 12px;
+	}
+
+	.input-control {
+	    font-size: 11px;
+	    height: 31px;
+	}
+	.dw-questions__form input {
+		    font-size: 11px;
+		    height: 33px;
+		}
+
+		.plan__text {
+		    width: 100%;
+		    margin: 0;
+		}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.dw-header__logo, .dw-header__search-planeName, .dw-header__top-nav {
+		text-align: center;
+	}
+	.dw-header__search-planeName{
+		margin: 20px 0
+	}
+
+	.plan__text{
+		width: 100%;
+		left: 0;
+		margin: 0;
+	}
+
+	.dw-about__foto{
+		width: 100%;
+	}
+	.dw-about__foto img{
+		width: 100%;
+	}
+
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+
+	.search__link, .search__link_btn, .search__link_options{
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.dw-panel__search li{
+		display: block;
+	}
+
+	.dw-panel__search{
+		padding: 0;
+	}
+
+	.dw-banner__quote{
+		width: 100%;
+		right: 0;
+	}
+	.dw-favorite__block{
+		width: 100%;
+		left: 0;
+	}
+	.menu-cont{
+		display: block;
+	}
+
+	.dw-header__navbar{
+		display: none;
+		position: fixed;
+		background: #201600;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		top: 0px;
+		left: 0px;
+	}
+	.navbar__list li{
+		display: block;
+		margin: 20px 0;
+	}
+	.navbar__link{
+		font-size: 22px;
+	}
+
+	.navbar__list{
+		margin: 20%
+	}
+}
+@media only screen and (max-width : 768px) and (min-width : 600px) {
+	.dw-houses__plan_one, .dw-houses__plan_two, .dw-houses__plan_three{
+		height: 489px;
+	}
+	.house__img, .house__img_two, .house__img_three, .house__img_four{
+		height: 400px;
+	}
+
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 480px) {
+	.dw-title h1{
+		font-size: 25px;
+	}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.dw-houses__house{
+		height: 335px;
+		background: #eaebec;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width :  992px) {
+	.pad-right{
+		padding-right: 0
+	}
+	.pad-none{
+		padding: 0;
+	}
+}
+
